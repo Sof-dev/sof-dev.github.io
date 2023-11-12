@@ -741,7 +741,7 @@ button#cv {
 }
 
 .contact-box {
-    width: 24%;
+    width:auto;
     text-align: center;
     padding: 30px;
     -webkit-border-radius: 15px;
@@ -761,18 +761,18 @@ button#cv {
 }
 
 .phone {
-    background-color: #EFE5F3;
-    color: #9B59B6;
+    background-color: #3876BF;
+    color: #192655;
 }
 
 .email {
-    background-color: #E0EFF9;
+    background-color: #3876BF;
     color: #3498DB;
 }
 
 .meet {
-    background-color: #DFF7E9;
-    color: #2ECC71;
+    background-color: #3876BF;
+    color: #192655;
     line-height: 25px;
 }
 .meet p {
