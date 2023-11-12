@@ -226,7 +226,7 @@ nav li a {
 }
 
 .parallax { 
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/background.png");
     height: 100%;
     position: relative;
     background-attachment: fixed;
