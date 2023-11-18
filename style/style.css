@@ -125,7 +125,7 @@ section.grey {
 
 nav {
     position: fixed;
-    color: #FFB8B8;
+    color: #DBE2EF;
     z-index: 9999;
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.3);
@@ -149,7 +149,7 @@ nav li {
 }
 
 nav li a {
-    color: #FFB8B8 !important;
+    color: #FFFFFF !important;
     text-decoration: none !important;
 }
 
@@ -244,10 +244,9 @@ nav li a {
     -ms-transform: translate(-50%);
     transform: translate(-50%);
 }
-
 header {
     font-family: 'Montserrat', sans-serif;
-    color: #E1AA74;
+    color: #F7FBFC;
     font-size: 39px;
     font-weight: 300;
     font-style: italic;
@@ -780,6 +779,26 @@ button#cv {
     padding-top: 20px;
     line-height: 23px;
 }
+
+div.bordure {
+    border-bottom:1.5px solid black;
+}
+div.hight{
+    height: 15px;
+}
+
+/**   Custom Ordered Lists  ***/
+
+
+/**     FIN custom li   ****/
+
+
+
+
+
+
+
+
 
 
 /* end contact */
