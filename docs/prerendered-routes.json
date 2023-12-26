@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/competences",
+    "/contact",
+    "/home",
+    "/parcours",
+    "/realisations"
+  ]
+}
