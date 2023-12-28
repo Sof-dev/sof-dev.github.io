@@ -11,10 +11,6 @@ export const routes: Routes = [
    {path:'parcours', component:ParcoursComponent},
    {path:'realisations', component:RealisationsComponent},
    {path:'contact', component:ContactComponent},
-
-
-
-
-  {path:'',redirectTo:'/home',pathMatch:'full'}
+   {path:'',redirectTo:'/home',pathMatch:'full'}
 
 ];
