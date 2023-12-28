@@ -26,12 +26,12 @@
   margin-bottom: 20px;
 
   &:hover {
-    transform: rotateY(-5deg) rotateX(-5deg);
+    transform: rotateY(0deg) rotateX(0deg);
   }
 }
 .card2 {
   position: relative;
-  width: 500px;
+  width: 800px;
   padding: 3em;
   color: #f3f3f3;
   transform: rotateY(20deg) rotateX(10deg);
@@ -39,7 +39,7 @@
   transition: transform 1s;
 
   &:hover {
-    transform: rotateY(-5deg) rotateX(-5deg);
+    transform: rotateY(0deg) rotateX(0deg);
   }
 }
 
@@ -71,3 +71,6 @@
     box-shadow: 0 0 0.5em #000d inset, 0 0 5px #000;
   }
 }
+
+
+/****** list custum ******/
