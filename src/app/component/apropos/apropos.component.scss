@@ -12,7 +12,8 @@
   //&:nth-child(1) { --bi: repeating-linear-gradient(10deg, #00A9FF, #3876BF); }
    &:nth-child(1) { --bi: linear-gradient(#555 15em, #0000 3em), linear-gradient(60deg, #00A9FF, #3876BF); }
   //&:nth-child(1) { --bi: repeating-linear-gradient(30deg, #111 0 0.25em, #333 0 1em); }
-  &:nth-child(2) { --bi: linear-gradient(#555 6em, #0000 3em), linear-gradient(60deg, #00A9FF, #3876BF); }
+   &:nth-child(2) { --bi: linear-gradient(#555 6em, #0000 3em), linear-gradient(60deg, #00A9FF, #3876BF); }
+   &:nth-child(3) { --bi: linear-gradient(#555 6em, #0000 3em), linear-gradient(60deg, #00A9FF, #3876BF); }
 }
 
 .card1 {
@@ -33,6 +34,7 @@
   position: relative;
   width: 900px;
   margin-bottom: 50px;
+  margin-top: 50px;
   padding: 3em;
   color: #f3f3f3;
   transform: rotateY(20deg) rotateX(10deg);
@@ -43,7 +45,23 @@
     transform: rotateY(0deg) rotateX(0deg);
   }
 }
+.card3 {
+  position: relative;
+  width: 400px;
+  padding: 3em;
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-right: 50px;
+  color: #f3f3f3;
+  transform: rotateY(20deg) rotateX(10deg);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  margin-bottom: 20px;
 
+  &:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+}
 .layers {
   position: absolute;
   align-items:start;
@@ -72,6 +90,74 @@
     box-shadow: 0 0 0.5em #000d inset, 0 0 5px #000;
   }
 }
-
+li{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /****** list custum ******/
+
+$main_font: 'Roboto';
+$main_color: #dae438;
+
+ul {
+	font-family: $main_font;
+	font-size: 13px;
+	line-height: 1.5em;
+	margin: 5px 0 15px;
+	padding: 0;
+	li {
+		list-style: none;
+		position: relative;
+		padding: 0 0 0 20px;
+	}
+}
+
+
+
+
+ul.curved-round {
+	li {
+		&::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 4px;
+      top: 3px;
+      border-top: 9px solid transparent;
+      border-right: 9px solid $main_color;
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+		}
+    &::after {
+      content: '';
+      position: absolute;
+      border: 0 solid transparent;
+      border-top: 3px solid $main_color;
+      border-radius: 20px 0 0 0;
+      top: 0;
+      left: -5px;
+      width: 12px;
+      height: 12px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+	}
+}
+ul.outline-square {
+	li {
+		&::before {
+			content: "";
+			position: absolute;
+			left: 3px;
+			top: 6px;
+			width: 5px;
+			height: 5px;
+      border: 1px solid $main_color;
+		}
+	}
+}

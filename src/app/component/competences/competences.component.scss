@@ -18,7 +18,8 @@
   position: relative;
   //flex-direction:row;
   width:700px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   margin-left: 100px;
   margin-right: 100px ;
   padding: 3em;
@@ -37,6 +38,23 @@
   margin-bottom: 100px;
   margin-left: 150px ;
   margin-top: 50px;
+  padding: 3em;
+  color: #f3f3f3;
+  transform: rotateY(20deg) rotateX(10deg);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+
+  &:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+}
+.card3{
+  position: relative;
+  //flex-direction:row;
+  width:750px;
+  margin-bottom: 130px;
+  margin-left: 100px;
+  margin-right: 100px ;
   padding: 3em;
   color: #f3f3f3;
   transform: rotateY(20deg) rotateX(10deg);
