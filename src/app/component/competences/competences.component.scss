@@ -43,7 +43,6 @@
   transform: rotateY(20deg) rotateX(10deg);
   transform-style: preserve-3d;
   transition: transform 1s;
-
   &:hover {
     transform: rotateY(0deg) rotateX(0deg);
   }
@@ -109,22 +108,7 @@
   box-sizing: border-box;
 }
 
-//body {
-//  --color: rgba(30, 30, 30);
-//  --bgColor: rgba(245, 245, 245);
-//  min-height: 100vh;
-//  display: grid;
-//  align-content: center;
-//  gap: 2rem;
-//  padding: 2rem;
-//  font-family: "Jura", sans-serif;
-//  color: var(--color);
-//  background: var(--bgColor);
-//}
 
-//h1 {
-//  text-align: center;
-//}
 
 ul {
   width: min(60rem, 100%);
@@ -186,20 +170,4 @@ ul li::after {
   margin-bottom: 0.5rem;
 }
 
-//ul li .title {
-//  grid-area: title;
-//  margin-block: 0.5rem;
-//  font-size: 1.3rem;
-//  font-weight: 600;
-//  text-align: center;
-//  text-transform: uppercase;
-//}
-
-//.credits {
-//  position: fixed;
-//  bottom: 1rem;
-//  right: 1rem;
-//}
-//.credits a {
-//  color: var(--color);
-//}
+/********************************* media query**************************/
